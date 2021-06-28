@@ -26,7 +26,7 @@ header {
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
-    min-height: 70px;
+    min-height: 100px;
     margin: 0 auto;
     width: 60%;
 }
@@ -43,7 +43,7 @@ input[type=search] {
     height: 25px;
     margin: 0;
     padding: 15px;
-    width: 33%;
+    width: 40%;
 }
 
 button#login {

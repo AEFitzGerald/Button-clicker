@@ -11,6 +11,7 @@ function remove(element) {
 
 function addedLikes(element) {
     alert("Ninja was liked.");
+    return alert;
 }
 
 
