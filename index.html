@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <input type="search" name="search" id="search" placeholder="Search...">
+        <button onclick="logout(this)" id="login">Login</button>
+    </header>
+    
+    <div id="content-wrapper">
+        <div id="col-1"><!--START col-1 -->
+            <div id="definition-1"> <!--START definition-1 -->
+                <div class="word-title">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h3>Plural:<em> ninjas</em></h3>
+                    <button onclick="alert()" id="likes-definition-1">13 likes</button>
+                </div>
+                <div class="word-definition">
+                    <p>A practicioner skilled in the <a href="#" target=_blank>Japanese</a> art of <a href="#">ninjustsu.</a></p>
+                </div>
+            </div>
+            <div id="definition-2"><!--START definition-2 -->
+                <div class="word-title">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h3>Plural:<em> ninjas</em></h3>
+                    <button onclick="alert()" id="likes-definition-2">37 likes</button>
+                </div>  
+                <div class="word-definition">
+                    <p>A <a href="#" target=_blank>programmer</a> who breaks down problems with <a href="#" target=_blank>zen</a> like focus.</p>
+                </div>
+            </div>
+        </div><!--END col-1 -->
+        
+            <div id="col-2"><!--START col-2 -->
+                <div id="add-definition"><!--START add definition-->
+                    <h2>Dojonary is defined by YOU!</h2>
+                    <button onclick="remove(this)" id="click-to-define">Add Definition</button>
+                </div>
+            </div> <!--END col-2-->
+    </div><!--END content-wrapper-->
+    <!--Link JavaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
